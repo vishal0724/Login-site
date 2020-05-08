@@ -1,0 +1,58 @@
+h1{
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background-image: url("Dark-Gray-Wallpapers-025.jpg");
+}
+form{
+    background-color: darkslategrey;
+    width: 280px;
+    height: 310px;
+    position: absolute;
+    top:30%;
+    left:60%;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+input{
+    color: white;
+    position:relative;
+    left: 17%;
+    border: 2px solid blue;
+    border-radius: 24px;
+    margin: 7px 0px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 65%;
+}
+input.green{
+    border-color:red;
+    width: 50%;
+    position: relative;
+    left:25%;
+    cursor: pointer;
+}
+input:hover{
+    border-color: lime;
+    width:75%;
+    position: relative;
+    left: 12%;
+}
+input[type='text'], input[type='password'], input[type='submit']{
+    background-color: darkslategrey;
+    outline: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+input[type='submit']:hover{
+    background-color:lawngreen;
+    width:65%;
+    position: relative;
+    left: 17%;
+    
+}
